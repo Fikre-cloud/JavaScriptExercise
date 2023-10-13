@@ -16,7 +16,7 @@ let [first = 'green'] = [];
 console.log(`first: ${first}`);
 
 //Swapping values
-const a = 4;
-const b = 5;
-[a,b] = [b.a]
+let a = 4;
+let b = 5;
+[a, b] = [b, a]
 console.log(`a: ${a} b: ${b}`);
