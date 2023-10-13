@@ -5,7 +5,7 @@ console.log(`firstColor: ${color1} secondColor: ${color2}`);
 
 //Destruct to skip the first two colors extract the third colors into variables
 let [,,thirdElement] = colors;
-console.log(`thirdColor: ${thirdColor}`);
+console.log(`thirdColor: ${thirdElement}`);
 
 //Destruct to extract the first fruit into variables firstFruit and remaining fruits called otherFruits
 let [firstElement, ...remainingColors] = colors;
@@ -16,7 +16,7 @@ let [first = 'green'] = [];
 console.log(`first: ${first}`);
 
 //Swapping values
-const a = 4;
-const b = 5;
-[a,b] = [b.a]
+let a = 4;
+let b = 5;
+[a, b] = [b, a];
 console.log(`a: ${a} b: ${b}`);
